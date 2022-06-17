@@ -55,6 +55,7 @@ function PostSection() {
         </div>
         <div className="form-group">
           <input
+          data-testid="text-input"
             type="text"
             className="form-control"
             onChange={(e) => setDescription(e.target.value)}
